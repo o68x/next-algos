@@ -1,7 +1,7 @@
 # next-algos 🙀
 THP Next session 2, last weeks
 
-## [Problème 1](pb-1)
+## [Problème 1](pb-1/sums.rb)
 
 Écrire 3 fonctions qui calculent la somme des nombres dans une liste utilisant 3 façons différentes ( `while`, `each`, `recursion` en ruby)
 
