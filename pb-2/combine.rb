@@ -10,11 +10,11 @@ b = [1, 2, 3, 4]
 # end
 
 def combine_zip(a, b)
-  if a.length == b.length
-    a.zip(b).flatten!
-  else
-    raise "Arrays have different lengths"
+  if a.length < b.length
+    # fill in if a shorter than b
+    a = a + Array.new(b.length - a.length)
   end
+    a.zip(b).flatten!
 end
 
 p combine_zip(a, b)
