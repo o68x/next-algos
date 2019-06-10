@@ -10,10 +10,10 @@ b = [50, 2, 1, 9]
 # version 1, better
 def big(arr)
   # map to strings and reverse sort
-  res = arr.map{ |el| el.to_s }.
-  sort.reverse
+  groups = arr.map{ |el| el.to_s }.
+  sort.reverse.
   # group by first digit
-  groups = res.group_by{ |el| el[0]}.values
+  group_by{ |el| el[0]}.values
   if groups.all?{ |c| c.count == 1 }
     # if only one value per first digit we're good to go
     groups.join.to_i
