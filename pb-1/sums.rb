@@ -1,4 +1,4 @@
-# sums
+# fun with sums
 
 list = *(1..100)
 
