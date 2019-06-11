@@ -5,19 +5,19 @@ THP Next session 2, last weeks
 
 Écrire 3 fonctions qui calculent la somme des nombres dans une liste utilisant 3 façons différentes ( `while`, `each`, `recursion` en ruby)
 
-## [Problème 2](pb-2)
+## [Problème 2](pb-2/combine.rb)
 
 Écrire une fonction qui combine deux listes en une seule en alternant les éléments.
 
 Par exemple, `combine([:a, :b, :c], [1, 2, 3])` doit renvoyer `[:a, 1, :b, 2, :c, 3]`.
 
-## [Problème 3](pb-3)
+## [Problème 3](pb-3/fibo.rb)
 
 Écrire une fonction qui calcule les 100 premiers nombres de Fibonacci. Fibonacci commence avec `0` et `1` et chaque nombre suivant est calculé comme étant la somme des deux précédents.
 
 Le début de la liste sera donc: `[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, …]`.
 
-## [Problème 4](pb-4)
+## [Problème 4](pb-4/big/rb)
 
 Écrire une fonction qui prend en argument une liste de nombres non\-négatifs puis les arrange de façon a faire le plus grand nombre possible.
 
