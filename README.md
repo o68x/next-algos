@@ -17,7 +17,7 @@ Par exemple, `combine([:a, :b, :c], [1, 2, 3])` doit renvoyer `[:a, 1, :b, 2, :c
 
 Le début de la liste sera donc: `[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, …]`.
 
-## [Problème 4](pb-4/big/rb)
+## [Problème 4](pb-4/big.rb)
 
 Écrire une fonction qui prend en argument une liste de nombres non\-négatifs puis les arrange de façon a faire le plus grand nombre possible.
 
