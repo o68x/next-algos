@@ -1,11 +1,13 @@
+# frozen_string_literal: true
+
 def fib(n)
   arr = [0, 1]
   i = 2
-  while i < n do
+  while i < n
     arr.push(arr[-2] + arr[-1])
     i += 1
   end
-  return arr
+  arr
 end
 
 p fib(100)
