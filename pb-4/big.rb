@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-lista = [3, 34, 302, 50, 31]
+lista = [3, 34, 302, 50, 31, 301, 30]
 listb = [50, 2, 1, 9]
 
 # version 0, not good enough
